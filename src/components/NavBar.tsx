@@ -2,8 +2,8 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-export const NavBar=()=>{
-    return (
+export const NavBar = ()=>{
+    return(
         <>
         <Navbar bg="dark" data-bs-theme="dark">
         <Container>
@@ -15,6 +15,6 @@ export const NavBar=()=>{
           </Nav>
         </Container>
       </Navbar>
-        </>
+      </>
     );
 }
